@@ -1,0 +1,24 @@
+# Virtual Environment, Upgrade Pip and Install requirments.txt
+# 1. Enviroment->python -m venv venv | Activate->venv\scripts\Activate
+# 2. Upgrade PIP->python -m pip install --upgrade pip
+# 3. Requirments File->pip install -r requirements.txt
+
+
+streamlit
+langchain
+langchain-community
+langchain-google-genai
+langchain-huggingface
+langgraph
+langgraph-checkpoint-sqlite
+google-genai
+huggingface_hub
+ddgs
+faiss-cpu
+pymupdf
+python-dotenv
+langsmith
+langchainhub
+youtube-transcript-api
+sqlite-vec
+requests

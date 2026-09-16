@@ -3,22 +3,61 @@
 # 2. Upgrade PIP->python -m pip install --upgrade pip
 # 3. Requirments File->pip install -r requirements.txt
 
-
-streamlit
+# LangChain
 langchain
+langchain-core
 langchain-community
-langchain-google-genai
-langchain-huggingface
+langchain-text-splitters
+langchain-classic
+
+# LangGraph
 langgraph
 langgraph-checkpoint-sqlite
+
+# Google Gemini Integration
+langchain-google-genai
 google-genai
-huggingface_hub
-ddgs
-faiss-cpu
-pymupdf
+
+# Environment Variable Management
 python-dotenv
-langsmith
-langchainhub
-youtube-transcript-api
+
+# Hugging Face Integration
+langchain-huggingface
+huggingface_hub
+
+# Vector Stores
+faiss-cpu
 sqlite-vec
+
+# PDF Loading
+pypdf
+PyMuPDF
+
+# Agent Tools / Web Search
+ddgs
+duckduckgo-search
+langchainhub
+
+# YouTube Transcript
+youtube-transcript-api
+
+# Streamlit UI
+streamlit
+
+# Database / ORM
+SQLAlchemy
+aiosqlite
+
+# HTTP Requests
 requests
+
+# API / Server
+uvicorn
+
+# Data Validation
+pydantic
+pydantic-settings
+
+# Utilities
+PyYAML
+tqdm
